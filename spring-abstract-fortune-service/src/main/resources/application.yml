@@ -7,3 +7,11 @@ spring:
     hibernate:
       ddl-auto: create-drop
     
+cloud:
+  aws:
+    credentials:
+      accessKey: AKIAIOSFODNN7EXAMPLE
+      secretKey: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+      instanceProfile: true
+    region:
+      auto: true

@@ -72,8 +72,8 @@
 
 
 	<profiles>
-		<profile>	
-			<!-- Is active in profile PCF (Pivotal Cloud Foundry)-->
+		<profile>
+			<!-- Is active in profile PCF (Pivotal Cloud Foundry) -->
 			<id>PCF</id>
 			<dependencies>
 				<dependency>
@@ -84,6 +84,26 @@
 				<dependency>
 					<groupId>org.springframework.cloud</groupId>
 					<artifactId>spring-cloud-cloudfoundry-connector</artifactId>
+				</dependency>
+			</dependencies>
+		</profile>
+		<profile>
+			<!-- Is active in profile AWS -->
+			<id>AWS</id>
+			<dependencies>
+				<dependency>
+					<groupId>org.springframework.cloud</groupId>
+					<artifactId>spring-cloud-spring-service-connector</artifactId>
+				</dependency>
+
+				<!-- Fetches spring-cloud-aws-context und spring-cloud-aws-autoconfigure -->
+				<dependency>
+					<groupId>org.springframework.cloud</groupId>
+					<artifactId>spring-cloud-starter-aws</artifactId>
+				</dependency>
+				<dependency>
+					<groupId>org.springframework.cloud</groupId>
+					<artifactId>spring-cloud-aws-jdbc</artifactId>
 				</dependency>
 			</dependencies>
 		</profile>

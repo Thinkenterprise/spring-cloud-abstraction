@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Profile;
 
 @Configuration
 @Profile("aws")
-@EnableContextCredentials(accessKey="AKIAI763FZQF5VVPHCNA",secretKey="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",instanceProfile=true)
+@EnableContextCredentials(accessKey="",secretKey="",instanceProfile=true)
 @EnableContextRegion(autoDetect=true)
 @EnableContextInstanceData
 @EnableRdsInstance(dbInstanceIdentifier = "fortuneDb",password = "fortuneDb", username="fortuneDb", databaseName="fortuneDb")

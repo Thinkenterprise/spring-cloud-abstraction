@@ -1,8 +1,8 @@
 cloud:
   aws:
     credentials:
-      accessKey: AKIAI763FZQF5VVPHCNA
-      secretKey: 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
+      accessKey: 
+      secretKey: 
       instanceProfile: true
     region:
       auto: true

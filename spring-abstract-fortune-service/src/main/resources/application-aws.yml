@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    credentials:
+      accessKey: AKIAI763FZQF5VVPHCNA
+      secretKey: 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
+      instanceProfile: true
+    region:
+      auto: true
+    fortuneDb:
+      password: fortuneDb
+      username: fortuneDb
+      databaseName: fortuneDb
+      readReplicaSupport: false
+      

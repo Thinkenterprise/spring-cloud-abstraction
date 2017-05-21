@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:mysql://fortunedb.cx0ibfmkcmwq.eu-central-1.rds.amazonaws.com:3306/fortuneDb
+    username: fortuneDb
+    password: fortuneDb
+    driver-class-name: com.mysql.jdbc.Driver
+#    aws@amsoftware.de:
+#    url: jdbc:mysql://mydbinstance.cw8oygqpro7h.eu-central-1.rds.amazonaws.com:3306/mydb
+#    username: master
+#    password: master10
+#    driver-class-name: com.mysql.jdbc.Driver
+    
+    

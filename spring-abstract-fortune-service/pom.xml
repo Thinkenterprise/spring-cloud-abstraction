@@ -95,7 +95,11 @@
 					<groupId>org.springframework.cloud</groupId>
 					<artifactId>spring-cloud-spring-service-connector</artifactId>
 				</dependency>
-
+				<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+				<dependency>
+				    <groupId>mysql</groupId>
+				    <artifactId>mysql-connector-java</artifactId>
+				</dependency>
 				<!-- Fetches spring-cloud-aws-context und spring-cloud-aws-autoconfigure -->
 				<dependency>
 					<groupId>org.springframework.cloud</groupId>

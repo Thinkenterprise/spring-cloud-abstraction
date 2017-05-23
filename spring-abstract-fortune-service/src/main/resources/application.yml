@@ -2,4 +2,18 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
+            
+cloud:
+  aws:
+    credentials:
+      accessKey: 
+      secretKey: 
+      instanceProfile: true
+    region:
+      auto: true
+    fortuneDb:
+      password: fortuneDb
+      username: fortuneDb
+      databaseName: fortuneDb
+      readReplicaSupport: false
     

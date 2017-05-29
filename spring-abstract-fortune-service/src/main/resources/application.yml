@@ -6,14 +6,14 @@ spring:
 cloud:
   aws:
     credentials:
-      accessKey: 
-      secretKey: 
+      accessKey: XXX
+      secretKey: XXX
       instanceProfile: true
     region:
       auto: true
-    fortuneDb:
-      password: fortuneDb
-      username: fortuneDb
-      databaseName: fortuneDb
-      readReplicaSupport: false
+    rds:
+      fortuneDb:
+        password: fortuneDb
+        username: fortuneDb
+        databaseName: fortuneDb
     
